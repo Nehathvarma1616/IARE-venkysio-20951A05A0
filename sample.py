@@ -1,0 +1,6 @@
+gross = int(input())
+fd = float(input())
+sd = float(input())
+cpp = float(input())
+net = gross - ((gross * (fd/100) + gross * (sd/100) + gross * (cpp/100)))
+print(net * 4)
